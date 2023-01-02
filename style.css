@@ -1,0 +1,64 @@
+.hero_banner
+{
+    height:600px;
+    width: 100%;
+    background-image: url("bg.gif");
+  
+  }  .banner-text
+{
+    color:aliceblue;
+    position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 140px;
+  font-family: 'Amatic SC', cursive;
+}
+.containers
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: -20px;
+}
+.primary-section
+{
+    background-color: black;
+height: 400px;
+width:100% ;
+}
+.hide
+{
+    display: none;
+}
+.w3-bar {
+    width: 100%;
+    overflow: hidden;
+    height: 55px;
+}
+.w3-bar .w3-bar-item {
+   
+    font-size: 15px;
+}
+.w3-button:hover {
+    color: rgb(0, 0, 0) !important;
+    text-decoration-style: none;
+    text-decoration: none;
+    background-image: darkblue;
+    background-color: white;
+}
+.mb20
+{
+    margin-bottom: 20px;
+}
+.tiles
+{
+    background-color: cadetblue;
+    color: aliceblue;
+    display: flex;
+}
+.align
+{
+    text-align: center;
+    font-size: 20px;
+}
