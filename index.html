@@ -26,11 +26,11 @@
       <div class="right-links">
         <ul>
           <li><a href="#">Intro</a></li>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Books</a></li>
-          <li><a href="#">Reviews</a></li>
-          <li><a href="#">Socials</a></li>
-          <li><a href="#">Contact Me</a></li>
+          <li><a href="#About">About me</a></li>
+          <li><a href="#Books">Books</a></li>
+          <li><a href="#Reviews">Reviews</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="#Contact">Contact Me</a></li>
         </ul>
       </div>
     </div>
@@ -78,7 +78,7 @@
         </div>
       </article>
       <div class="about-me__text">
-        <h2 class="universal-h2 universal-h2-bckg">About me</h2>
+        <h2 class="universal-h2 universal-h2-bckg" id="About">About me</h2>
         <p>
           <span>W</span>ish Ansar was another fictional character from this
           book, but he's not. Hence forcing me to abide by the rules and stick
@@ -119,12 +119,12 @@
         allowfullscreen></iframe>
     </div>
   </div>
-  
+
   <!-- Books and CD -->
-  <section class="fh5co-books" style="margin-top:50px;">
+  <section  class="fh5co-books" style="margin-top:50px;">
     <div class="site-container">
-      <h2 class="universal-h2 universal-h2-bckg">Books and Anthologies</h2>
-      <div class="books">
+      <h2 class="universal-h2 universal-h2-bckg" id="Books">Books and Anthologies</h2>
+      <div class="books" >
         <div class="single-book">
           <a target="_blank"
             href="https://www.amazon.in/You-Rest-World-Ansar-Hussain-ebook/dp/B0BYWPGD48/ref=sr_1_1?crid=19X231HOVRA8N&keywords=you+and+the+rest+of+the+world&qid=1679373105&sprefix=%2Caps%2C580&sr=8-1"
@@ -206,7 +206,7 @@
   <!-- Counter -->
 
   <!-- Quotes -->
-  <section class="fh5co-quotes">
+  <section class="fh5co-quotes" id="Reviews">
     <div class="site-container">
       <h2 class="universal-h2 universal-h2-bckg">What People Are Saying</h2>
       <div class="about-me-slider">
@@ -290,15 +290,15 @@
             </div>
           </div>
         </div>
-        <div class="footer-contact-form">
-          <h5>Contact Form</h5>
+        <div class="footer-contact-form" id="Contact">
+          <h5>Your Message</h5>
           <form class="contact-form">
             <div class="contact-form__input">
               <input type="text" name="name" placeholder="Name" />
-              <input type="email" name="email" placeholder="Email" />
+              <input id="email" type="email" name="email" placeholder="Email" />
             </div>
             <textarea></textarea>
-            <input type="submit" name="submit" value="Submit" class="submit-button" />
+            <input type="submit" name="submit" value="Submit" class="submit-button" onclick="sendEmail()" />
           </form>
         </div>
       </div>
@@ -310,6 +310,8 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/mailIt.js"></script>
+  <script src="Include a script tag to https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>
